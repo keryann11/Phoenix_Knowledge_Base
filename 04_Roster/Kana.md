@@ -30,6 +30,6 @@
 * **"Je prends/J'ai"** je m'engage dans le 1v1, couvrez mes arrières (passe,backboard) 
 * **"referme/coupe"** priorité absolu !! le tir devient trop dangereux pour Moi (tir axe ma faiblesse), c'est à ce moment que j'ai besoin de la réactivité de mes DC 
 * **"écarte"** en phase offensif, je veux que mon coéquipier s'écarte de Moi pour une éventuelle passe, je tente d'attirer le défenseur pour créer un trou
-* **"switch"** le dernier DC passe GK pour que je puisse sortir de ma surface récupérer une balle perdue, général une mauvaise passe adverse dans mon corner
+* **"switch"** le dernier DC passe GK pour que je puisse sortir de ma surface récupérer une balle perdue, généralement une mauvaise passe adverse dans mon corner
                                    
 * **Conseil clé :** réactivité sur mes call, disponibilités rapide sur les phases offensives lorsque l'on me presse
