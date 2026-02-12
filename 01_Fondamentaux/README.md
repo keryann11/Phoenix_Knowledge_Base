@@ -17,7 +17,7 @@ Cliquez sur un poste pour accéder aux détails tactiques, aux conseils de place
 
 | Poste | Rôle Principal | Guide Complet |
 | :--- | :--- | :--- |
-| **Gardien (GK)** | Dernier rempart et premier relanceur. | [Consulter la fiche GK](GK.md) |
+| **Gardien (GK)** | Dernier rempart et premier relanceur. | [Consulter la fiche GK](01_Fondamentaux/GK.md) |
 | **Défenseur (DC)** | Verrouillage de l'axe et interceptions. | [Consulter la fiche DC](DC.md) |
 | **Buteur (BU)** | Finition et pressing haut. | [Consulter la fiche BU](BU.md) |
 
