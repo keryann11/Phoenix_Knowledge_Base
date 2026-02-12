@@ -11,3 +11,7 @@ L'objectif est d'avoir des messages courts, clairs et instantanés.
 | **"Solo"** | Laisse-moi le duel | Ne venez pas m'aider, je gère le 1v1. |
 
 > 💡 **Règle d'or :** Pas de phrases complètes. Un mot = Une action.
+
+
+---
+[⬅️ Retour à l'accueil](../README.md)
