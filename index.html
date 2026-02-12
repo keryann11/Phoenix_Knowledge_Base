@@ -6,31 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
   
   <style>
     :root {
-      /* Couleur Orange/Rouge Phoenix */
       --theme-color: #e65100;
     }
 
-    /* Style pour forcer tout le fond en noir profond */
     body, .sidebar {
       background-color: #121212 !important;
     }
 
-    /* CORRECTIF TABLEAUX : Supprime les lignes blanches/grises alternées */
     table tr:nth-child(2n), 
     table tr, 
     table td, 
     table th {
-      background-color: #1a1a1a !important; /* Gris très foncé pour les cellules */
-      border: 1px solid #333 !important;   /* Bordures discrètes */
-      color: #eeeeee !important;           /* Texte clair */
+      background-color: #1a1a1a !important;
+      border: 1px solid #333 !important;
+      color: #eeeeee !important;
     }
 
-    /* Optionnel : Amélioration du rendu de la barre latérale */
     .sidebar-nav li a {
       color: #ccc;
+    }
+
+    /* Petit ajustement pour que le menu soit bien lisible en mode sombre */
+    .sidebar-nav .folder {
+      cursor: pointer;
     }
   </style>
 </head>
@@ -39,11 +41,15 @@
   <script>
     window.$docsify = {
       name: 'Phoenix Base',
-      // REMPLACE BIEN [TON_PSEUDO] par ton vrai nom d'utilisateur GitHub ci-dessous :
       repo: 'https://github.com/keryann11/Phoenix_Knowledge_Base',
       loadSidebar: true,
       subMaxLevel: 2,
       auto2top: true,
+      // Option pour fermer les rubriques par défaut
+      sidebarDisplayLevel: 0, 
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
       search: {
         placeholder: 'Rechercher une tactique...',
         noData: 'Aucun résultat !',
@@ -54,5 +60,6 @@
   
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>
