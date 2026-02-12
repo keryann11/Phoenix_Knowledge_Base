@@ -4,32 +4,54 @@
   <meta charset="UTF-8">
   <title>Phoenix Knowledge Base</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css">
+  
   <style>
     :root {
       /* Couleur Orange/Rouge Phoenix */
       --theme-color: #e65100;
     }
-    .sidebar {
-      background-color: #1c1c1c;
+
+    /* Style pour forcer tout le fond en noir profond */
+    body, .sidebar {
+      background-color: #121212 !important;
     }
-    body {
-      background-color: #121212;
+
+    /* CORRECTIF TABLEAUX : Supprime les lignes blanches/grises alternées */
+    table tr:nth-child(2n), 
+    table tr, 
+    table td, 
+    table th {
+      background-color: #1a1a1a !important; /* Gris très foncé pour les cellules */
+      border: 1px solid #333 !important;   /* Bordures discrètes */
+      color: #eeeeee !important;           /* Texte clair */
+    }
+
+    /* Optionnel : Amélioration du rendu de la barre latérale */
+    .sidebar-nav li a {
+      color: #ccc;
     }
   </style>
 </head>
 <body>
-  <div id="app">Chargement...</div>
+  <div id="app">Chargement de la base Phoenix...</div>
   <script>
     window.$docsify = {
       name: 'Phoenix Base',
-      repo: 'https://github.com/[TON_PSEUDO]/Phoenix_Knowledge_Base',
+      // REMPLACE BIEN [TON_PSEUDO] par ton vrai nom d'utilisateur GitHub ci-dessous :
+      repo: 'https://github.com/ton-pseudo/Phoenix_Knowledge_Base',
       loadSidebar: true,
       subMaxLevel: 2,
       auto2top: true,
-      search: 'auto', // Ajoute une barre de recherche
+      search: {
+        placeholder: 'Rechercher une tactique...',
+        noData: 'Aucun résultat !',
+        depth: 6
+      }
     }
   </script>
+  
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
