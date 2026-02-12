@@ -23,3 +23,6 @@
 ## 📋 Mémo pour les Coéquipiers (À lire avant le Scrim)
 * **Le call à retenir avec moi :** (ex: Quand je dis "Switch", décalez-vous immédiatement)
 * **Conseil clé :** (ex: Ne me faites pas de passes dans les pieds si je suis dos au jeu)
+
+---
+[⬅️ Retour à l'accueil](../README.md)
