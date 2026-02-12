@@ -12,3 +12,5 @@ Bienvenue dans le centre stratégique de la **Team Phoenix**. Ce dépôt central
 1. Consultez votre fiche dans le dossier `04_Roster`.
 2. Proposez des modifications via des "Pull Requests" pour les tactiques.
 3. Révisez les fiches de vos alliés avant chaque Scrim !
+
+📥 **Nouveau membre ?** [Clique ici pour copier le template](04_Roster/TEMPLATE_JOUEUR.md) et crée ta fiche dans ce dossier !
