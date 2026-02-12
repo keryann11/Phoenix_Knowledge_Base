@@ -2,7 +2,8 @@
 ---
 
 ## 🎮 Identité de Jeu
-* **Poste principal :** **GK**  **Style global :** Aggressif, Solide sur la ligne 
+* **Poste principal :** **GK**
+* **Style global :** Aggressif, Solide sur la ligne 
 
 ## 💪 Points Forts (Ce que j'apporte à la team)
 * **Technique :** Rush 1v1 , feinte , réduction d'angle de tir  
