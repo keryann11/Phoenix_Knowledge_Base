@@ -8,18 +8,18 @@ Bienvenue dans le centre stratégique de la **Team Phoenix**. Ce dépôt est not
 
 | Section | Description |
 | :--- | :--- |
-| [📖 **Fondamentaux**](01_Fondamentaux) | Maîtrise des postes : placements et rôles (GK/DC/BU). |
-| [📢 **Communication**](02_Communication) | Lexique des calls rapides pour une fluidité totale en game. |
-| [⚡ **Tactiques**](03_Tactiques) | Schémas de jeu, stratégies d'attaque et de défense. |
-| [👤 **Roster**](04_Roster/README.md) | Fiches de profil, points forts et attentes des joueurs. |
+| [📖 **Fondamentaux**](./01_Fondamentaux) | Maîtrise des postes : placements et rôles (GK/DC/BU). |
+| [📢 **Communication**](./02_Communication) | Lexique des calls rapides pour une fluidité totale en game. |
+| [⚡ **Tactiques**](./03_Tactiques) | Schémas de jeu, stratégies d'attaque et de défense. |
+| [👤 **Roster**](./04_Roster) | Fiches de profil, points forts et attentes des joueurs. |
 
 ---
 
 ## 👥 Le Roster (Effectif)
 C'est ici que nous répertorions les profils de chaque joueur pour optimiser nos synergies avant chaque Scrim.
 
-* 📂 **Consulter l'effectif :** [Voir tous les profils des joueurs](04_Roster/README.md)
-* 📥 **Nouveau membre ?** [Clique ici pour copier le template](04_Roster/Kana.md) et crée ta fiche personnalisée dans le dossier.
+* 📂 **Consulter l'effectif :** [Voir tous les profils des joueurs](./04_Roster/)
+* 📥 **Nouveau membre ?** [Clique ici pour copier le template](04_Roster/TEMPLATE_JOUEUR.md) et crée ta fiche personnalisée dans le dossier.
 
 ---
 
