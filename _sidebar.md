@@ -9,8 +9,13 @@
 * 📢 [**Communication**](02_Communication.md)
 
 * ⚡ **Tactiques**
-  * [Stratégies Offensives](03_Tactiques/Offensif.md)
-  * [Stratégies Défensives](03_Tactiques/Defensif.md)
+  * [📚 Vue d'ensemble](03_Tactiques/README.md)
+  * ⚔️ **Offensives**
+    * [Offensive 1](03_Tactiques/TactiquesOffensives/offensive1.md)
+    * [Offensive 2](03_Tactiques/TactiquesOffensives/offensive2.md)
+  * 🛡️ **Défensives**
+    * [Défensive 1](03_Tactiques/TactiquesDefensives/defensive1.md)
+    * [Défensive 2](03_Tactiques/TactiquesDefensives/defensive2.md)
 
 * 👤 **Roster**
   * [Liste des membres](04_Roster/README.md)
