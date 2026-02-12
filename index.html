@@ -1,19 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <title>Phoenix Knowledge Base</title>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css">
+  <style>
+    :root {
+      /* Couleur Orange/Rouge Phoenix */
+      --theme-color: #e65100;
+    }
+    .sidebar {
+      background-color: #1c1c1c;
+    }
+    body {
+      background-color: #121212;
+    }
+  </style>
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">Chargement...</div>
   <script>
     window.$docsify = {
       name: 'Phoenix Base',
-      repo: '',
-      loadSidebar: true // Optionnel : pour avoir un menu à gauche
+      repo: 'https://github.com/[TON_PSEUDO]/Phoenix_Knowledge_Base',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      auto2top: true,
+      search: 'auto', // Ajoute une barre de recherche
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
